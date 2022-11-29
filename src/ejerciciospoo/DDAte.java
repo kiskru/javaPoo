@@ -5,8 +5,10 @@
  */
 package ejerciciospoo;
 
-import java.util.Date;
+import Entidad.fecha;
+import java.time.LocalDate;
 import java.util.Scanner;
+import services.DateService;
 
 /**
  *
@@ -19,37 +21,25 @@ public class DDAte {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    Scanner scan=new Scanner(System.in);
-    int dia;
-    int mes;
-    int anio;
-    dia=scan.nextInt();
-    mes=scan.nextInt();
-    anio=scan.nextInt();
-    Date F= new Date(anio, mes, dia);
-    System.out.println(F);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        Scanner scan = new Scanner(System.in);
+        DateService ser = new DateService();
+        LocalDate fechaAct = LocalDate.now();
+//        int dia;
+//        int mes;
+//        int anio;
+//        System.out.println("Ingrese el año");
+//        dia = scan.nextInt();
+//        mes = scan.nextInt();
+//        anio = scan.nextInt();
+
+        fecha fechaUsu = ser.crearFecha();
+        System.out.println(fechaUsu);
+        
+        ser.diferenciaFecha(fechaAct, fechaUsu);
+        
+        
+        
+
     }
-    
+
 }

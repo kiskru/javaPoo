@@ -8,7 +8,6 @@ ordenados al arreglo B de 20 elementos, y rellenar los 10 últimos elementos con
  */
 package ejerciciospoo;
 
-import java.text.Normalizer;
 import java.util.Arrays;
 import services.ArregloService;
 
@@ -55,8 +54,6 @@ public class EJ10_Arreglos {
         for (int i : C) {
             System.out.print(C + "]");
         }
-        
-        
         
         
 //        for (int j = 0; j < 20; j++) {
