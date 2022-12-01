@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Entidad;
+package ejerciciospoo;
 
 /**
  *
  * @author Kidver
  */
-public class Mes {
-    
-    public String [] meses[];
-          
-    
-    
+public class EJ13_Cursos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

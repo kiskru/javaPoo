@@ -3,17 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Entidad;
+package services;
+
+import Entidad.Curso;
+import java.util.Scanner;
 
 /**
  *
  * @author Kidver
  */
-public class Mes {
+public class CursoService {
+    Scanner scan = new Scanner(System.in);
     
-    public String [] meses[];
-          
-    
-    
+    public Curso crearCurso(){
+        
+        
+    }
+
+
+
+
+
+/////////////////
     
 }
