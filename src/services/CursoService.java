@@ -17,7 +17,7 @@ public class CursoService {
     
     public Curso crearCurso(){
         
-        
+     return new Curso();   
     }
 
 

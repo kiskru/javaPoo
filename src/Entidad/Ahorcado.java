@@ -1,7 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*Juego Ahorcado: Crear una clase Ahorcado (como el juego), la cual deberá contener
+como atributos, un vector con la palabra a buscar, la cantidad de letras encontradas y la
+cantidad jugadas máximas que puede realizar el usuario. Definir los siguientes métodos
+con los parámetros que sean necesarios:
  */
 package Entidad;
 
@@ -15,13 +15,12 @@ public class Ahorcado {
     private int jugMax; 
 
     public Ahorcado() {
-        this.jugMax = 6;
     }
 
     public Ahorcado(char[] palabra, int encontradas, int jugMax) {
         this.palabra = palabra;
         this.encontradas = encontradas;
-        this.jugMax = 6;
+        this.jugMax = jugMax;
     }
 
     public char[] getPalabra() {
